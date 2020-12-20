@@ -1,0 +1,74 @@
+.profile {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.profile__header--control {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;
+}
+
+.profile__userInfo_rate {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.profile__userInfo_rate--star {
+  color: gold;
+  margin-right: 5px;
+  font-size: 1.2rem;
+}
+
+.profile__contactUser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 15px;
+  width: 120px;
+  height: 51px;
+  font-weight: 500;
+  border: 2px solid #bce0fd;
+}
+
+.profile__messagebtn {
+  border: 2px solid #bce0fd;
+  color: #2699fb;
+  font-size: 15px;
+}
+
+.profile__followbtn {
+  background-color: #2699fb;
+  border-radius: 4px;
+  color: white;
+}
+
+.profile__image-holder {
+  width: 64px;
+  display: grid;
+  align-items: center;
+}
+
+.profile__image {
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 410px) {
+  .btn {
+    font-size: 14px;
+    width: 100px;
+    height: 45px;
+  }
+  .profile__image-holder {
+    width: 50px;
+  }
+}

@@ -1,0 +1,53 @@
+.newChallenge {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 10% auto;
+  padding: 20px 0;
+  max-width: 550px;
+}
+
+@media only screen and (max-width: 510px) {
+  .newChallenge {
+    grid-template-columns: 13% auto;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .newChallenge {
+    grid-template-columns: 17% auto;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .newChallenge {
+    grid-template-columns: 17% auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .newChallenge__newPost--input {
+    padding-left: 10px;
+  }
+}
+
+.newChallenge__newPost--input {
+  border: 1px solid black;
+  border-radius: 46px;
+  height: 40px;
+  padding-left: 20px;
+}
+.newChallenge__newPost--input {
+  border: 1px solid black;
+  border-radius: 46px;
+  height: 40px;
+  padding-left: 20px;
+}
+.newChallenge__avtar {
+  padding-right: 15px;
+  display: flex;
+}
+
+.newChallenge__avtar--img {
+  border-radius: 50%;
+  width: 40px;
+}

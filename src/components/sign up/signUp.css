@@ -1,0 +1,47 @@
+.login__contianer {
+  padding-top: 50px;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.form-style {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1);
+  justify-content: center;
+}
+
+.Login__header {
+  padding: 20px;
+}
+
+.input-field {
+  position: relative;
+
+  padding: 15px 0;
+}
+
+.input-field_input {
+  width: 240px;
+  padding: 15px 5px;
+  padding-left: 40px;
+}
+
+.input-field_icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+  color: #7a7a7a;
+  opacity: 35%;
+}
+
+.btn-Register {
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background-color: #2699fb;
+  width: 80%;
+  padding: 12px 0;
+  font-size: 1.1rem;
+}

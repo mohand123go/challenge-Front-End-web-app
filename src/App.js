@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Login from './components/login/Login'
+import SignUp from './components/sign up/signUp'
+import Header from './components/Header/Header';
+/*import ChallengePost from './components/challenge post/ChallengePost'; */
+
+import ChallengePost from './components/challenge post/ChallengePost';
+import Container from '@material-ui/core/Container';
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import NewChallenge from './components/new Challenge/newChallenge';
+import Profile from './components/profile/profile';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header/>
+         <div className='container'>
+          <ChallengePost/>
+        </div>
+   
     </div>
   );
 }
