@@ -1,0 +1,39 @@
+.day-achivment__text {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.day-achivmen__dayNum {
+  padding-right: 5px;
+}
+.day-achivment_dayHolder {
+  display: flex;
+  align-items: center;
+}
+
+.RiMedalLine {
+  color: gold;
+}
+
+@media only screen and (max-width: 380px) {
+  .day-achivment__text {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .day-achivment__text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 328px) {
+  .day-achivment__text {
+    font-size: 13.5px;
+  }
+}
+
+.horizontallLine {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}

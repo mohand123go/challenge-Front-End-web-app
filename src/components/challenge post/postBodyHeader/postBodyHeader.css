@@ -1,0 +1,41 @@
+/*post body start*/
+
+.post__title {
+  margin-bottom: 5px;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 374px) {
+  .post__title {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .post__title {
+    font-size: 22px;
+  }
+}
+
+.post__tags-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post__tag {
+  padding-right: 15px;
+  font-size: 15px;
+}
+@media only screen and (max-width: 374px) {
+  .post__tag {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .post__tag {
+    padding-right: 10px;
+  }
+}

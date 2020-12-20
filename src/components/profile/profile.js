@@ -3,7 +3,8 @@ import './profile.css'
 import { BsStarFill } from "react-icons/bs";
 import { BsStarHalf } from "react-icons/bs";
 import { BsStar } from "react-icons/bs";
-import ChallengePost from './../challenge post/ChallengePost';
+
+import NewsFeedChallengePost from './../newsFeedChallengePost/newsFeedChallengePost';
 
 const Profile = ()=>{
     return(
@@ -39,9 +40,9 @@ const Profile = ()=>{
             </div>
 
             <div className='profile__body'>
-                <ChallengePost/>
-                <ChallengePost/>
-                <ChallengePost/>
+               <NewsFeedChallengePost/>
+               <NewsFeedChallengePost/>
+               <NewsFeedChallengePost/>
             </div>
         </div>
     )

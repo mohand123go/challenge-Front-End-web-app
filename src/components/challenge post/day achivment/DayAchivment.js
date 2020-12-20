@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './DayAchivment.css'
-import '../../../node_modules/bootstrap/dist/css/bootstrap.css'
+
 
 
 import { RiMedalLine } from "react-icons/ri";
@@ -21,14 +21,23 @@ const DayAchivment = ()=>{
         <div className='post__day-achivment'> 
 
 
-            <p className='day-achivment__text'><span className='day-achivmen__dayNum'>#day1</span> install react app using NPX <a className='day-achivmen__see-more' href='#'>... <RiMedalLine  className='RiMedalLine' /></a></p>
-            <div className='day-achivment__likes    '>
-                <span className='day-achivment__likes-count' >
+            <p className='day-achivment__text'>
+              <span className='day-achivment_dayHolder'>
+              <span className='day-achivmen__dayNum'>#day100</span>
+                 install react app using NPX
+                 ...<RiMedalLine  className='RiMedalLine' />
+              </span>
+                 <span className='day-achivment__likes-count' >
                     <img src={`https://img.icons8.com/color/${x()}/000000/triceps.png`}/>
                     <img src={`https://img.icons8.com/emoji/${x()}/000000/nikita-clapping-hands-emoji.png`}/>
-                     609</span>
+                     609
+                </span>
+                </p>
+                <hr className='horizontallLine'/>
+  
+               
               
-            </div>
+        
          
 
         </div>

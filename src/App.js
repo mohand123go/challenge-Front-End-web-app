@@ -5,11 +5,11 @@ import SignUp from './components/sign up/signUp'
 import Header from './components/Header/Header';
 /*import ChallengePost from './components/challenge post/ChallengePost'; */
 
-import ChallengePost from './components/challenge post/ChallengePost';
 import Container from '@material-ui/core/Container';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import NewChallenge from './components/new Challenge/newChallenge';
-import Profile from './components/profile/profile';
+
+
+import NewsFeedChallengePost from './components/newsFeedChallengePost/newsFeedChallengePost';
 
 
 
@@ -20,7 +20,7 @@ function App() {
     <div className="App">
         <Header/>
          <div className='container'>
-          <ChallengePost/>
+          <NewsFeedChallengePost/>
         </div>
    
     </div>
